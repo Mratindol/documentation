@@ -59,7 +59,7 @@ Open your scene's _scene.json_ file and complete the following data:
 
 ### Using the Scene Editor
 
-Make sure you've [installed the Creator Hub]({{< ref "/content/creator/scene-editor/editor-installation.md" >}}).
+Make sure you've [installed the Creator Hub]({{< ref "/content/creator/scene-editor/get-started/editor-installation.md" >}}).
 
 1. Open your scene project.
 2. Click the **Publish** button on the top-right corner.
@@ -184,7 +184,7 @@ You'll see a list of each of the servers that make up Decentraland's content net
 
 You can also obtain this information at any time by running the following command on the command line console:
 
-`npx @dcl/opscli pointer-consistency --pointer '0,0'`
+`npx @dcl/opscli pointer-consistency --pointer 0,0`
 
 {{< hint warning >}}
 **📔 Note**: Use the coordinates of your scene instead of `0,0`. If your scene has multiple parcels, any one of its parcels will produce the same output. If the coordinates start with a negative number, add a `\` at the start of the coordinates to prevent the `-` character from being misinterpreted by the command line.
